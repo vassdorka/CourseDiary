@@ -1,0 +1,104 @@
+.addCard
+{
+    display: none;
+    position: absolute;
+    width: 750px;
+    height: 530px;
+    background: rgba(255,255,255,0.05);
+    box-shadow: 0 15px 35px rgba(0,0,0,0.5);
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+    z-index: 10;
+    top: calc(95vh - 600px);
+}
+.innerDiv
+{
+    width: 750px;
+    height: 530px;
+    position: relative;
+}
+.btnDiv
+{
+    position: absolute;
+    left: 94%;
+    top: 6%;
+}
+.formDiv
+{
+    position: absolute;
+    top: 20%;
+    left: 39%;
+}
+.imgDiv
+{
+    position: absolute;
+    left: 19%;
+    top: 36%
+}
+.imgDiv img
+{
+    opacity: 0.7;
+    
+}
+form
+{
+    margin-top: 30px;
+}
+label
+{
+    color: rgba(255,255,255,0.6);
+    margin-right: 10px;
+    font-size: 140%;
+}
+.subBtn
+{
+    position: absolute;
+    left: 55%;
+    padding: 15px;
+    background: transparent;
+    margin: 20px;
+    color: #fff;
+    opacity: 0.7;
+    border-radius: 5px;
+    text-align: center;
+    justify-content: center;
+    border  : none;
+    font-size: 170%;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+.subBtn:hover
+{
+    transition: 0.5s;
+    opacity: 1;
+}
+.textarea
+{
+    background: none;
+    border  : none;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+    padding: 10px;
+    border-bottom: 2px solid rgba(255,255,255,0.5);
+    color: #fff;
+}
+.textarea:focus
+{
+    outline: none;
+    background: rgba(255,255,255,0.06);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.3);
+}
+.closeButton
+{
+    padding: 5px;
+    color: rgba(255,255,255,0.6);
+    font-size: 150%;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+#help{
+    color: rgba(255,255,255,0.6);
+    font-size: x-small;
+    padding-left: 120px;
+    font-style: italic;
+}
